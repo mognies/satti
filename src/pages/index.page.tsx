@@ -8,14 +8,8 @@ const Home: NextPage = () => {
         Hello world!
       </h1>
       <Button>Hello</Button>
-      <label htmlFor="my-modal" className="btn modal-button">open modal</label>
-      <input type="checkbox" id="my-modal" className="modal-toggle" />
-      <div className="modal">
-        <div className="modal-box">
-          <h3 className="font-bold text-lg">Congratulations random Interner user!</h3>
-          <p className="py-4">Youve been selected for a chance to get one year of subscription to use Wikipedia for free!</p>
-        </div>
-      </div>
+      <Button variant='primary'>Primary</Button>
+      <Button variant='secondary'>Secondary</Button>
     </main>
   )
 }
